@@ -48,6 +48,7 @@ export const getProduct =
 
       dispatch({
         type: ALL_PRODUCT_SUCCESS,
+        
         payload: data,
       });
     } catch (error) {
