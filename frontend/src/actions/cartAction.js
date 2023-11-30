@@ -19,6 +19,8 @@ export const addItemsToCart = (id, quantity) => async (dispatch, getState) => {
       image: data.product.images[0].url,
       stock: data.product.Stock,
       quantity,
+
+      
       
     },
   });
